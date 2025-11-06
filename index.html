@@ -69,12 +69,10 @@
                height: 100%;
             }
         </style>
-		<script src="/adinLoader.js"></script>
     </head>
 
     <body>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
-            <!-- Create the canvas element the game draws to -->
             <canvas id="canvas" width="1024" height="768">
                <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
@@ -82,17 +80,13 @@
         <script>
             const myDomain = 'iob-ybbolb.github.io';
         </script>
-        <!-- Run the game code -->
         <script type="text/javascript" src="html5game/Coding_BreakOut1.js?MBCYB=1433039701"></script>
         <script>window.onload = GameMaker_Init;</script>
-			<script>
-       if (typeof getAdinDomain !== 'undefined') {
-           const bodyTag = document.getElementsByTagName('body')[0];
-
-           let addAdinPreroll = document.createElement('script');
+		<script>
+           	const bodyTag = document.getElementsByTagName('body')[0];
+           	let addAdinPreroll = document.createElement('script');
             addAdinPreroll.src = getAdinDomain;
             bodyTag.appendChild(addAdinPreroll);
-        }
-  </script>
+  		</script>
     </body>
 </html>
